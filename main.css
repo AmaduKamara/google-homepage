@@ -79,20 +79,20 @@ form input {
   width: 584px;
   padding: 13px 60px;
   background-color: transparent;
-  border: none;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dfdede;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
   border-radius: 50px;
 }
 
 form input:hover {
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
-  border: none;
+  border: 1px solid #dfdede;
+  box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.1);
 }
 
 form input:focus {
   outline: none;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-  border: none;
+  border: 1px solid #dfdede;
+  box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.1);
 }
 
 .inputBox {
@@ -197,4 +197,3 @@ footer ul li a:hover {
 .privacyTerms {
   display: flex;
 }
-
